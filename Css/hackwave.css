@@ -1,0 +1,43 @@
+
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222222;
+  --primary-color: #4f46e5;
+  --secondary-color: #6b7280;
+  --card-bg: #f3f4f6;
+  --header-bg: rgba(255, 255, 255, 0.9);
+
+}
+
+[data-theme="dark"] {
+  --bg-color: #1e1e1e;
+  --text-color: #e5e7eb;
+  --primary-color: #6366f1;
+  --secondary-color: #9ca3af;
+  --card-bg: #2d2d2d;
+  --header-bg: rgba(30, 30, 30, 0.85);
+}
+
+.headings h1{
+    text-align: center;
+    color: var(--primary-color);
+    font-size: 3rem;
+    text-decoration: underline rgb(177, 162, 165);
+   
+}
+.hero img{
+    height: 500px;
+    width: 500px;
+}
+.hero .content p{
+    margin: 2rem;
+}
+.hero .content h2{
+    margin-bottom: 2rem;
+}
+.texts{
+    color: var(--text-color);
+}
+.event-card p{
+    color: var(--text-color);
+}
