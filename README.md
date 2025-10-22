@@ -1,5 +1,5 @@
 
-# 🚀 Echelon Dev Society Landing Page & HackWave 2.0
+# 🚀 Echelon Dev Society Landing Page 
 
 ![Echelon Dev Society](assets/herosection.png)
 
@@ -137,3 +137,4 @@ Echelon-Dev-Webpage/
 
 
 **Developed By:** Anubhav Singh
+
