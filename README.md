@@ -1,7 +1,7 @@
 
 # 🚀 Echelon Dev Society Landing Page & HackWave 2.0
 
-![Echelon Dev Society](assets/echleon_edited.png)
+![Echelon Dev Society](assets/herosection.png)
 
 > **"Building Tomorrow's Solutions Today"**  
 
@@ -63,16 +63,18 @@ These pages are designed to be **responsive, modern, and visually engaging**, wi
 ---
 ---
 
-## 🖼 Screenshots
+## 🖼 Screenshots (Some)
 
 ### Landing Page Hero Section
-![Landing Page](assets/echleon_edited.png)
+![Echelon Dev Society](assets/herosection.png)
 
+![Echelon Dev Society](assets/Events.png)
+![Echelon Dev Society](assets/Team.png)
 ### HackWave 2.0 Hero Section
-![HackWave Hero](assets/hackwave.png)
+![HackWave Hero](assets/hackwavelanding.png)
+![Echelon Dev Society](assets/Mentor.png)
 
 
-> Replace placeholders with actual screenshots as needed.
 
 ---
 
@@ -125,12 +127,13 @@ Echelon-Dev-Webpage/
 - Use Dark Mode Toggle to switch themes 
 
 - Use hamburger menu for navigation on mobile devices.
-## 📱 Contact
+## 📱 Visit
+
+- [Click here to visit Echelon Dev Society Instagram](https://www.instagram.com/echelondevsociety/?__pwa=1)
+
+
+- [Click here to visit Echelon Dev Society](https://www.linkedin.com/company/echelondevsociety/)
+
+
 
 **Developed By:** Anubhav Singh
-
-- Instagram: @echelondevsociety
-
-- LinkedIn: Echelon Dev Society
-
-- GitHub: anub1004
