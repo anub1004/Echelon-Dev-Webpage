@@ -86,3 +86,65 @@ document.addEventListener("DOMContentLoaded", () => {
     observer.observe(el);
   });
 });
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+
+  function toggleChat() {
+    const chat = document.getElementById("chatbot");
+    chat.style.display = chat.style.display === "flex" ? "none" : "flex";
+  }
+
+  function sendMessage() {
+    const input = document.getElementById("user-input");
+    const messages = document.getElementById("chatbot-messages");
+    const text = input.value.trim();
+
+    if (text === "") return;
+
+    // Add user message
+    const userMsg = document.createElement("div");
+    userMsg.className = "user-message";
+    userMsg.innerText = text;
+    messages.appendChild(userMsg);
+    input.value = "";
+
+    // Auto-scroll
+    messages.scrollTop = messages.scrollHeight;
+
+    // Simple bot responses
+    setTimeout(()=>{
+      let botMsg = document.createElement("div");
+      botMsg.className = "bot-message";
+
+      if (text.toLowerCase().includes("event")) {
+        botMsg.innerText = "Our upcoming events are HackWave 3.0, DevFest 2025, and AI Bootcamp 🚀";
+      } else if (text.toLowerCase().includes("contact")) {
+        botMsg.innerText = "You can reach us at echelondevsociety@gmail.com 📧";
+      } else if (text.toLowerCase().includes("hello") || text.toLowerCase().includes("hi")) {
+        botMsg.innerText = "Hey there! 👋 How can I assist you today?";
+      } else if(text.includes("1")){
+         botMsg.innerText = "Our upcoming events are HackWave 3.0, DevFest 2025, and AI Bootcamp 🚀";
+      }else if(text.includes("2")){
+         botMsg.innerText = "You can reach us at echelondevsociety@gmail.com 📧";}
+      else {
+        botMsg.innerText = "I'm not sure about that 🤔 — but our team will update me soon!";
+      }
+       
+
+      messages.appendChild(botMsg);
+      messages.scrollTop = messages.scrollHeight;
+    }, 100);
+  
+  }
