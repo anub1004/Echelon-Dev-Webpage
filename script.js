@@ -21,14 +21,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   }
 
-  const savedTheme = localStorage.getItem("theme"); //Using local storage (temprory)
+  const savedTheme = localStorage.getItem("theme"); 
 
   const prefersDark = window.matchMedia(
     "(prefers-color-scheme: dark)"
   ).matches;
 
   if (savedTheme) {
-    setMode(savedTheme);//Checking Mode
+    setMode(savedTheme);
   } else {
     setMode(prefersDark ? "dark" : "light");
   }
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const menuToggle = document.getElementById("menuToggle");
   const navLinks = document.querySelector(".nav-links");
   const navLinksList = navLinks.querySelectorAll("a");
- //Nav Bar For Mobile
+
   menuToggle.addEventListener("click", () => {
     navLinks.classList.toggle("active");
 
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  const fadeElements = document.querySelectorAll(".fade-in"); //Animation
+  const fadeElements = document.querySelectorAll(".fade-in"); 
 
   const observerOptions = {
     root: null, 
@@ -98,7 +98,7 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 3000); // Change image every 2 seconds
+  setTimeout(showSlides, 3000); 
 }
 
   function toggleChat() {
@@ -113,17 +113,17 @@ function showSlides() {
 
     if (text === "") return;
 
-    // Add user message
+
     const userMsg = document.createElement("div");
     userMsg.className = "user-message";
     userMsg.innerText = text;
     messages.appendChild(userMsg);
     input.value = "";
 
-    // Auto-scroll
+
     messages.scrollTop = messages.scrollHeight;
 
-    // Simple bot responses
+  
     setTimeout(()=>{
       let botMsg = document.createElement("div");
       botMsg.className = "bot-message";
