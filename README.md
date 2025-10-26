@@ -41,6 +41,7 @@ These pages are designed to be **responsive, modern, and visually engaging**, wi
 - 📬 **Contact Section** – Allows visitors to reach out easily.  
 - 📱 **Responsive Design** – Optimized for desktop, tablet, and mobile.  
 - 🎨 **Smooth Animations** – Clean transitions and fade-in effects for modern UI.
+- 🧑‍💻 **Chat-Bot**
 
 ---
 ## 🎯 Features
@@ -148,5 +149,6 @@ Echelon-Dev-Webpage/
 
 
 **Developed By:** Anubhav Singh
+
 
 
