@@ -31,7 +31,18 @@ The **HackWave 2.0 Page** provides detailed information about one of the society
 These pages are designed to be **responsive, modern, and visually engaging**, with smooth animations, dark mode toggle, and mobile-friendly navigation.
 
 ---
+## ✨ Key Features
 
+- 🧑‍💻 **About Section** – Introduction to Echelon Dev Society and its goals.  
+- 🗓️ **Upcoming Events** – Displays upcoming hackathons, workshops, and meetups.  
+- 🎞️ **Sliding Memories** – An auto-sliding gallery featuring past event photos and memories.  
+- 📰 **News Section** – Latest updates, achievements, and announcements.  
+- 👥 **Team Section** – Showcases society members and organizers.  
+- 📬 **Contact Section** – Allows visitors to reach out easily.  
+- 📱 **Responsive Design** – Optimized for desktop, tablet, and mobile.  
+- 🎨 **Smooth Animations** – Clean transitions and fade-in effects for modern UI.
+
+---
 ## 🎯 Features
 ### Landing Page
 - Hero section with welcome message, slogan, and **Join Us** button.
@@ -137,4 +148,5 @@ Echelon-Dev-Webpage/
 
 
 **Developed By:** Anubhav Singh
+
 
