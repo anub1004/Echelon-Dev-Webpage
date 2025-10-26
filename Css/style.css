@@ -91,7 +91,6 @@ nav ul li {
 
 nav ul li a {
   padding-bottom: 5px;
-  color: var(--text-color);
   border-bottom: 2px solid transparent;
   transition: border-color 0.3s ease, color 0.3s ease;
 }
@@ -576,6 +575,7 @@ footer {
 
   nav ul.active {
     max-height: 500px;
+    background-color: #1e1e1e;
     border-bottom: 1px solid var(--secondary-color);
   }
 
