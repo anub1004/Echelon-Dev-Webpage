@@ -595,4 +595,21 @@ footer {
   .hamburger {
     display: block;
   }
+  .slideshow-container{
+    width: 90%;
+  }
+  .mySlides{
+    width: 100%;
+    margin: 0px;
+
+  }
+  .mySlides img{
+    padding: 5px;
+    width: 100%;
+    margin-left: 0px;
+    height: 650px;
+  }
+  .next,.prev{
+    display: none;
+  }
 }
