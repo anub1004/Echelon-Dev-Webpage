@@ -7,6 +7,8 @@
 
 Welcome to the official landing page of **Echelon Dev Society (CDGI)** — a community of developers, innovators, and tech enthusiasts.  
 This project includes the main landing page for the society and a detailed HackWave 2.0 event page.
+## 🚀 Visit Our Webpage
+[![Visit Echelon Dev Society](https://img.shields.io/badge/Visit%20Now-Echelon%20Dev%20Society-blue?style=for-the-badge)](https://echelon-dev-six.vercel.app/)
 
 ---
 
@@ -149,6 +151,7 @@ Echelon-Dev-Webpage/
 
 
 **Developed By:** Anubhav Singh
+
 
 
 
